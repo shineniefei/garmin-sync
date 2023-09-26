@@ -1,5 +1,7 @@
 class Activity:
-    def __init__(self, activityId, activityName, activityType, startTimeLocal, calories, averageHR) -> None:
+
+    def __init__(self, activityId, activityName, activityType, startTimeLocal,
+                 calories, averageHR) -> None:
         self.activityId = activityId
         self.activityName = activityName
         self.activityType = activityType
